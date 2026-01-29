@@ -63,4 +63,18 @@ diffPeaks <- data.frame(Name = c("Mount Haystack",
 
 # homework ----
 
+# question 1
+# convert high peaks elev to meters
+diffPeaks$Elevation_ft / 3.281
 
+# question 2
+# see homework
+
+# question 3
+# get max round trip length
+maxLength <- max(diffPeaks$RoundTripLength_mi)
+# get row of data frame with longest round trip length
+rowMaxLength <- diffPeaks[diffPeaks$RoundTripLength_mi == maxLength,]
+
+# question 4
+# see homework
