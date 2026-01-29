@@ -37,6 +37,30 @@ highPeaks[1,1]
 # show first col
 highPeaks[,1]
 
+# prompt 1
+# vector of avg snow depths in inches
+avgSnowDepth <- c(2.5, 3, 5, 4.5)
+# convert to cm
+avgSnowDepth * 2.54
+
+# prompt 2
+# create data frame of most difficult peaks to summit
+diffPeaks <- data.frame(Name = c("Mount Haystack", 
+                                 "Mount Skylight", 
+                                 "Dix Mountain",
+                                 "Gray Peak"),
+                        Elevation_ft = c(4960, 4926, 4857, 4840),
+                        ClimbAscent_ft = c(3570, 4265, 2800, 4178),
+                        RoundTripLength_mi = c(17.8, 17.9, 13.2, 16))
+
+# prompt 3
+# convert C to F
+# F = C * 9/5 + 32
+-44 * 9 / 5 + 32
+0 * 9 / 5 + 32
+20 * 9 / 5 + 32
+35 * 9 / 5 + 32
+
 # homework ----
 
 
